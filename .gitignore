@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Ignorer le fichier .env dans le dossier medecins
+#LAPTOP-FO44DTTE\SQLEXPRESS

@@ -26,7 +26,7 @@ namespace Medecins
         public MainWindow()
         {
             // assurez vous de changer la valeur de Source et mettre celle de votre Serveur SQL
-            conDB = new SqlConnection(@"Data Source=LAPTOP-FO44DTTE\SQLEXPRESS;Initial Catalog=Hopital;Integrated Security=True");
+            conDB = new SqlConnection(@"Data Source=nom_ta_base_donnee;Initial Catalog=Hopital;Integrated Security=True");
             InitializeComponent();
             //desactiver le textbox tbIDMedecin parce qu'il s'incremente automatiquement;
             tbIDMedecin.IsEnabled = false;
